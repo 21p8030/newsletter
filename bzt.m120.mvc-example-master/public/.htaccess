@@ -1,7 +1,7 @@
 Options -MultiViews
 RewriteEngine On 
 
-RewriteBase /bzt.m120.mvc-example-master/public
+RewriteBase /newsletter/bzt.m120.mvc-example-master/public
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

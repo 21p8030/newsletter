@@ -1,4 +1,4 @@
-<form action="/bzt.m120.mvc-example-master/public/home/newsletter" method="POST">
+<form action="newsletter//bzt.m120.mvc-example-master/public/home/newsletter" method="POST">
     E-mail:<br>
 	<input name="Email" type="text" /><br /> <br/>
 

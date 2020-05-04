@@ -11,7 +11,7 @@
             require_once('../app/views/' . $view . '.php');
         }
         public function goto($controller, $method, $args = []) {
-            $base = '/bzt.m120.mvc-example-master/public';
+            $base = '/newsletter/bzt.m120.mvc-example-master/public';
             $location = 'http://' . $_SERVER['HTTP_HOST'] . $base . "/" . $controller . "/" . $method . "/" . implode("/", $args);
             header("Location: " . $location);
             exit;
