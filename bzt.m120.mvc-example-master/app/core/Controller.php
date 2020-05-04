@@ -1,0 +1,21 @@
+<?php
+
+    class Controller {
+
+        public function model($model) {
+            require_once('../app/models/' . $model . '.php');
+            return new $model();
+        }
+
+        public function view($view, $data = []) {
+            require_once('../app/views/' . $view . '.php');
+        }
+        public function goto($controller, $method, $args = []) {
+            $base = '/bzt.m120.mvc-example-master/public';
+            $location = 'http://' . $_SERVER['HTTP_HOST'] . $base . "/" . $controller . "/" . $method . "/" . implode("/", $args);
+            header("Location: " . $location);
+            exit;
+        }
+    }
+
+?>
