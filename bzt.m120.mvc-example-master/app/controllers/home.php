@@ -140,7 +140,7 @@ class Home extends Controller {
             }
             if($found == false){
                 echo '
-                        Mail existiert nicht
+                        Diese Mail ist noch nicht angemeldet
                         <br>
                         <a href="/newsletter/bzt.m120.mvc-example-master/public/home/newsletter/">Weiter zur anmeldung?</a>';
                  
