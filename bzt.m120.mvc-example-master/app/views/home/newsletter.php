@@ -5,5 +5,5 @@
     E-mail:<br>
 	<input name="Email" type="text" /><br /> <br/>
 
-	<button type="submit" value="Submit">Submit</button>
+	<button type="submit" value="Submit">Submit</button><br><br><button type="button" onclick="location.href='http://localhost/newsletter/bzt.m120.mvc-example-master/public/home/newsletter_abmelden'" value="abmelden">Vom Newsletter Abmelden</button>
 </form>
